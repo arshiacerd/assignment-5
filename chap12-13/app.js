@@ -1,4 +1,4 @@
-function task1(){
+function task1Ch12(){
     var ch = prompt("Input a character");
    var index =0;
    var i =ch.charCodeAt(index);
@@ -19,7 +19,7 @@ for(var k=65;k<=95;k++)
 }
 
 }
-function task2(){
+function task2Ch12(){
     var number1 = prompt("Input 1st integer");
     var number2 = prompt("Input 2nd integer");
     if(number1>number2)
@@ -35,7 +35,7 @@ else{
 }
 
 }
-function task3(){
+function task3Ch12(){
     var num = prompt("input a number");
     if(num==0)
     {
@@ -49,7 +49,7 @@ function task3(){
         document.write("number is negative");
     }
 }
-function task4(){
+function task4Ch12(){
     var character = prompt("input a charcter");
     
     if(character.length==1)
@@ -68,7 +68,7 @@ else{
 }
 
 }
-function task5(){
+function task5Ch12(){
     var Password = "pakistan";
     var password =   prompt("enter password");
     if(password ==""){
@@ -89,7 +89,7 @@ function task5(){
         }
     
 }
-function task6()
+function task6Ch12()
 {
     var greeting;
 var hour = 13;
@@ -102,7 +102,7 @@ greeting = "Good evening";
 
 }
 }
-function task7(){
+function task7Ch12(){
     var time= prompt("input time in 24 hours format");
     if(time>=0000 && time<1200)
     {

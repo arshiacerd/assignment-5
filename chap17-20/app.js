@@ -15,13 +15,13 @@
  }
 
     }
-    function task3(){
+    function task3Ch17(){
     for(let i=1;i<=10;i++)
     {
         document.write(i+"<br>");
     }
     }
-    function task4(){
+    function task4Ch17(){
        var tab=prompt("Enter table no");
        var len= prompt("Enter length of table");
        document.write("<b> Multiplication table of "+ tab+"<br>Length of "+len+ "</b><br><br><br>");
@@ -31,7 +31,7 @@
        }
 
     }
-    function task5(){
+    function task5Ch17(){
        var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
        for(var i=0;i<fruits.length;i++)
        {
@@ -45,7 +45,7 @@
            
        }
        }
-       function task6(){
+       function task6Ch17(){
            document.write("<h2>Counting</h2>");
         for(let i = 1;i<=15;i++)
         {
@@ -80,7 +80,7 @@
            }
 
        }
-       function task7()
+       function task7Ch17()
        {
       var  A = ["cake", "apple pie", "cookie", "chips", "patties"];
       var input = prompt("Welcome to ABC Bakery. What do you want to order?");
@@ -99,7 +99,7 @@
         
     }
        }
-       function task8(){
+       function task8Ch17(){
       var  A = [24, 53, 78, 91, 12, 98];
       document.write("<h2>Array items</h2>");
       document.write(A +"<br>");
@@ -116,7 +116,7 @@
            }
            document.write("The largest number is " + max);
     }
-    function task9(){
+    function task9Ch17(){
         var  A = [24, 53, 78, 91, 12, 98];
         document.write("<h2>Array items</h2>");
         document.write(A +"<br>");
@@ -133,7 +133,7 @@
              }
              document.write("The smallest number is " + min);
       }
-      function task10(){
+      function task10Ch17(){
           for(let i =1 ;i<=100;i++)
           {
               if(i%5==0)

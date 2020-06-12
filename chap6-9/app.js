@@ -1,4 +1,4 @@
-function task1(){
+function task1Ch6(){
     var a = 14;
     document.write("<b>Result:</b> <br>");
     document.write("The value of a is: "+ a+ " <br>");
@@ -17,7 +17,7 @@ function task1(){
     document.write("Now the value of a is: "+a + " <br><br>");
     
 }
-function task2(){
+function task2Ch6(){
     var a=2 , b=1;
      var result= + --a - --b +  + ++b + +b--;
    
@@ -27,11 +27,11 @@ document.write("a is: 2<br>");
 document.write("b is: 1<br>");
 document.write("result is: "+result);
 }
-function task3(){
+function task3Ch6(){
     var username = prompt("Enter your name");
     alert("Welcome "+ username);
 } 
-function task5(){
+function task5Ch6(){
     var table = prompt("Enter table no:");
     if(table==""){
         document.write("<h3>Table of " +5+ " </h3>");
@@ -52,7 +52,7 @@ function task5(){
 
 }
 }
-function task6(){
+function task6Ch6(){
     var sub1 = prompt("Enter 1st subject name:");
     var sub2 = prompt("Enter 2nd subject name:");
     var sub3 = prompt("Enter 3rd subject name:");

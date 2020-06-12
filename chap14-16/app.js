@@ -15,7 +15,7 @@ boolean=["True","False"];
 var mixed;//task6
 mixed=["hi",67,"Fasle"];
 
-function task7()
+function task7Ch14()
 {
     var qualification = [ "SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil.", "PhD" ];
     document.write("<h2>Qualifications</h2>");
@@ -25,7 +25,7 @@ function task7()
     }
 
 }
-function task8(){
+function task8Ch14(){
     var stName=["Saba","Ali","faiza"];
     var score = [410,320,475];
     let per=[(410*100)/500,(320*100)/500,(475*100)/500];
@@ -34,7 +34,7 @@ function task8(){
         document.write("<b>Score of " +stName[i] + " is " +score[i]+ " ." + " Percentage: " +per[i]+ "%<br>");
     }
 }
-function task9(){
+function task9Ch14(){
     let color = ["red","green","blue","yellow","black"];
     document.write(color+"<br>");
 }
@@ -79,23 +79,23 @@ function AddColor2(){
     document.write(color);
     
  }
- function task10(){
+ function task10Ch14(){
      let array = [210,450,100,367,420,505];
      document.write("<b>Scores of students: "+array + "<br>");
      document.write("Ordered Scores of students : "+array.sort());
 
  }
- function task11(){
+ function task11Ch14(){
      let cities =["Karachi","lahore","Islamabad","Peshawar","Quetta"];
      document.write("<b>Cities list:<br>"+cities+"<br>");
   document.write("Selected Cities list:<br>"  +cities.slice(0,3));
  }
- function task12(){
+ function task12Ch14(){
      let string = ["This" , "is" , "my" , "home"];
      document.write("Array:<br>"+string+"<br>");
      document.write("String:<br>"+string.join(" "));
  }
- function task13(){
+ function task13Ch14(){
      let array = ["keyboard","mouse","printer","monitor"+"<br>"];
      document.write("<b>Devices: <br>"+array);
      for(let i=0 ;i<=array.length-1;i++)
@@ -104,7 +104,7 @@ function AddColor2(){
      }
  }
 
- function task14(){
+ function task14Ch14(){
     let array = ["keyboard","mouse","printer","monitor"+"<br>"];
     document.write("<b>Devices: <br>"+array);
     for(let i=array.length-1 ;i>=0;i--)
@@ -112,7 +112,7 @@ function AddColor2(){
         document.write("Out:<br>" +array[i]+ "<br>");
     }
 }
-function task15(){
+function task15Ch14(){
     let array = ["(Apple","Samsung", "Motorola", "Nokia", "Sony" , "Haier"];
     document.write("<select name='phone' id='phone'><option value='Apple'>Apple</option><option value='Samsung'>Samsung</option><option value='Motorola'>Motorola</option><option value='Nokia>Nokia</option><option value='Sony'>Sony</option><option value=Haier>Haier</option></select>");
 }

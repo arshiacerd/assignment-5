@@ -1,11 +1,11 @@
-function task1(){
+function task1Ch9(){
     var city = prompt("Input city name in lowercase:");
     if(city=="karachi")
     {
         document.write(" \"Welcome to the city of lights\" ");
     }
 }
-function task2(){
+function task2Ch9(){
     var gender = prompt("Input gender");
     if(gender=="male" || gender=="Male" || gender=="MALE")
     {
@@ -16,7 +16,7 @@ function task2(){
         document.write("Good Morning Ma'am");
     }
 }
-function task3(){
+function task3Ch9(){
     var color= prompt("Input  traffic signal color");
     document.write("<table><tr><th>Signal Color</th><th>Message</th></</tr>");
     if(color=="red")
@@ -35,7 +35,7 @@ function task3(){
     }
     
 }
-function task4(){
+function task4Ch9(){
     var fuel = prompt("Enter remaining fuel of car in liters")
     if(fuel<0.25)
     {
@@ -46,7 +46,7 @@ function task4(){
         document.write("You can move on");
     }
 }
-function task5(){
+function task5Ch9(){
     var a = 4;
     if (++a === 5){
     alert("given condition for variable a is true");
@@ -89,7 +89,7 @@ function task5(){
                 alert("False");
                 }
 }
-function task6(){
+function task6Ch9(){
     var total = 300;
     var obt1 = prompt("Enter obtained marks of 1st subject:");
     var obt2 = prompt("Enter obtained marks of 2nd subject:");
@@ -120,7 +120,7 @@ function task6(){
         document.write("Remarks: Sorry");
     }
 }
-function task7(){
+function task7Ch9(){
     var num =  6;
     var guess = prompt("Guess the secret number ranging 1-10");
     if(guess==num){
@@ -134,7 +134,7 @@ function task7(){
         document.write("Your guess is incorrect");
     }
 }
-function task8(){
+function task8Ch9(){
     var num = prompt("Input number to check that number is divisble by 3");
     if(num%3==0)
     {
@@ -146,7 +146,7 @@ function task8(){
     }
 
 }
-function task9()
+function task9Ch9()
 {
     var num = prompt("Input number ");
     if(num%2==0)
@@ -158,7 +158,7 @@ function task9()
         document.write("Given number is <strong>Odd</strong> ");
     }
 }
-function task10(){
+function task10Ch9(){
     var temp=prompt("Input temperature");
     if(temp>40)
     {
@@ -177,7 +177,7 @@ function task10(){
         document.write("\"OMG! Today's Weather is so Cool\"");
     }
 }
-function task11(){
+function task11Ch9(){
     var num1 = prompt("Input 1st number");
     var num2 = prompt("Input 2nd number");
     var operator = prompt("Input Operator wheather +,-,/,*,%");
